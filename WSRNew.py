@@ -1,8 +1,9 @@
 import xlrd, datetime, sys
 
 from datetime import timedelta
+file_loc=input('Enter the Tracker location: ')
 
-loc = ("C:\Temp\Deployment Tracker.xls")
+loc = (file_loc)
 startdatelist = []
 distsysCsid, distuatCsid, distoatCsid, distliveCsid, setDate = set(), set(), set(), set(), set()
 listsysCsid, listDate, listDate2 = [], [], []
